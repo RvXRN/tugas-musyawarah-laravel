@@ -9,7 +9,7 @@
   <div class="flex bg-[#06142E] w-full max-w-6xl p-6">
     <!-- Illustration -->
     <div class="hidden md:flex items-center justify-center w-1/2">
-      <img src="https://undraw.co/api/illustrations/6ec20b1f-0c98-4a9f-82b5-c109f4dc7a76" alt="Register illustration" class="w-[70%]">
+      <img src="SiMUDIlogo.png" alt="Register illustration" class="w-[70%] rounded-full">
     </div>
 
     <!-- Form -->
@@ -24,10 +24,11 @@
         <input type="password" name="password" placeholder="Password" required class="w-full px-4 py-2 rounded text-black">
         <input type="password" name="re_password" placeholder="Re-enter Password" required class="w-full px-4 py-2 rounded text-black">
         <input type="text" name="nik" placeholder="No KTP / NIK" required class="w-full px-4 py-2 rounded text-black">
-
-        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded w-full mt-4">
+        <div>
+        <a href="login.php" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded w-full mt-4">
           SUBMIT
-        </button>
+        </a>
+        </div>
       </form>
     </div>
   </div>

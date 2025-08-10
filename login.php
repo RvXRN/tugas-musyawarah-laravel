@@ -9,7 +9,7 @@
     <div class="flex bg-[#06142E] text-white w-full max-w-5xl shadow-lg rounded-lg overflow-hidden">
         <!-- Left Illustration -->
         <div class="hidden md:flex flex-col items-center justify-center w-1/2 p-10">
-            <img src="https://undraw.co/api/illustrations/3c4b7ee6-8123-4fd4-8f35-bc4f81d26795" alt="Illustration" class="w-4/5">
+            <img src="SiMUDIlogo.png" alt="Illustration" class="w-4/5 rounded-full">
         </div>
 
         <!-- Right Login Form -->
@@ -25,10 +25,10 @@
                     <input type="password" name="password" id="password" required class="w-full px-4 py-2 rounded bg-white text-black focus:outline-none focus:ring-2 focus:ring-blue-400">
                 </div>
                 <div class="text-sm text-gray-300">
-                    <a href="#" class="text-blue-400 hover:underline">Forgot Password?</a>
+                    <a href="forgot_password.php" class="text-blue-400 hover:underline">Forgot Password?</a>
                 </div>
                 <div class="text-sm text-gray-300">
-                    Not a user? <a href="#" class="text-blue-400 hover:underline">Register now</a>
+                    Not a user? <a href="register.php" class="text-blue-400 hover:underline">Register now</a>
                 </div>
                 <button type="submit" class="w-full bg-blue-600 hover:bg-blue-700 text-white py-2 px-4 rounded transition duration-200">LOGIN</button>
             </form>

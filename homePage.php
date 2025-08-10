@@ -11,7 +11,7 @@
   <nav class="flex justify-end space-x-8 p-6 font-semibold items-center">
     <a href="#" class="hover:underline">Tentang Kami</a>
     <a href="#" class="hover:underline">Contact</a>
-    <button class="bg-blue-600 hover:bg-blue-700 transition rounded-md px-4 py-2 font-semibold">Login</button>
+    <a href="login.php" class="bg-blue-600 hover:bg-blue-700 transition rounded-md px-4 py-2 font-semibold">Login</a>
   </nav>
   <!-- Main square -->
   <main class="flex flex-1 justify-center items-center px-6">
@@ -25,7 +25,7 @@
       <div class="flex flex-col max-w-xl">
         <p class="text-xl md:text-2xl mb-3">Suaramu membawa perubahan</p>
         <h1 class="text-6xl md:text-7xl font-bold text-transparent bg-clip-text bg-orange-500 mb-6 select-none">Si MUDI</h1>
-        <button class="self-start bg-blue-600 hover:bg-blue-700 transition rounded-md px-6 py-3 text-white font-semibold uppercase tracking-wide">Register</button>
+        <a href="register.php" class="self-start bg-blue-600 hover:bg-blue-700 transition rounded-md px-6 py-3 text-white font-semibold uppercase tracking-wide">Register</a>
       </div>
     </section>
   </main>
