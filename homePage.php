@@ -29,70 +29,95 @@
       </div>
     </section>
   </main>
-  <footer class="bg-blue-900 text-white py-8 px-6">
-    <div class="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        <!-- Contact Info -->
-        <div>
-            <h3 class="font-bold text-lg mb-2">Contact:</h3>
-            <ul>
-                <li class="mb-2">1800 9090 32</li>
-                <li class="mb-2">1800 9000 64</li>
-            </ul>
-
-            <h3 class="font-bold text-lg mb-2">Helpline Number:</h3>
-            <ul>
-                <li class="mb-2">9090 1234 46</li>
-                <li class="mb-2">9090 1234 47</li>
-            </ul>
-
-            <h3 class="font-bold text-lg mb-2">Email:</h3>
-            <ul>
-                <li class="mb-2">complaint@24jam.go.id</li>
-                <li class="mb-2">info@karanganom.go.id</li>
-            </ul>
-        </div>
-
-        <!-- Get In Section -->
-        <div>
-            <h3 class="font-bold text-lg mb-2">Get In</h3>
-            <ul>
-                <li class="mb-2"><a href="#" class="text-blue-400 hover:underline">Register</a></li>
-                <li class="mb-2"><a href="#" class="text-blue-400 hover:underline">Login</a></li>
-            </ul>
-        </div>
-
-        <!-- Know More Section -->
-        <div>
-            <h3 class="font-bold text-lg mb-2">Know More</h3>
-            <ul>
-                <li class="mb-2"><a href="#" class="text-blue-400 hover:underline">Features</a></li>
-                <li class="mb-2"><a href="#" class="text-blue-400 hover:underline">About</a></li>
-                <li class="mb-2"><a href="#" class="text-blue-400 hover:underline">Steps</a></li>
-            </ul>
-        </div>
-
-        <!-- Follow Us Section -->
-        <div>
-            <h3 class="font-bold text-lg mb-2">Follow Us</h3>
-            <ul class="flex space-x-4">
-                <li><a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-twitter"></i> Twitter</a></li>
-                <li><a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-facebook"></i> Facebook</a></li>
-                <li><a href="#" class="text-blue-400 hover:text-blue-500"><i class="fab fa-instagram"></i> Instagram</a></li>
-            </ul>
-        </div>
-
-        <!-- Quick Feedback Section -->
-        <div>
-            <h3 class="font-bold text-lg mb-2">Quick Feedback:</h3>
-            <textarea class="w-full p-2 mb-2 bg-gray-100 border rounded" placeholder="Your feedback..."></textarea>
-            <button class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Send</button>
-        </div>
+ <footer class="bg-[#031426]  mt-8 rounded-md px-8 py-8 text-gray-400  font-playfair">
+   <div class="flex flex-col md:flex-row md:justify-between md:space-x-12">
+    <div class="flex flex-col space-y-3 mb-6 md:mb-0">
+     <div>
+      <p class="font-semibold text-gray-400">
+       Contact
+      </p>
+      <p>
+       0899 9999 12
+      </p>
+      <p>
+       0899 9999 43
+      </p>
+     </div>
+     <div>
+      <p class="font-semibold text-gray-400">
+       Helpline Number:
+      </p>
+      <p>
+       0899 1231 16
+      </p>
+      <p>
+       0899 1234 47
+      </p>
+     </div>
+     <div>
+      <p class="font-semibold text-gray-400">
+       Email:
+      </p>
+      <p>
+       compadmin2@gmail.co.id
+      </p>
+      <p>
+       info@kampungmudi.com
+      </p>
+     </div>
     </div>
-
-    <div class="mt-6 text-center text-sm">
-        <p>&copy; 2025 Ruwet Team. All rights reserved.</p>
+    <div class="flex flex-col space-y-3 mb-6 md:mb-0">
+     <p class="font-semibold text-gray-400">
+      Quick
+     </p>
+     <a class="hover:underline" href="#">
+      Register
+     </a>
+     <a class="hover:underline" href="#">
+      Login
+     </a>
     </div>
-</footer>
+    <div class="flex flex-col space-y-3 mb-6 md:mb-0">
+     <p class="font-semibold text-gray-400">
+      Know more
+     </p>
+     <a class="hover:underline" href="#">
+      Features
+     </a>
+     <a class="hover:underline" href="#">
+      About
+     </a>
+     <a class="hover:underline" href="#">
+      Steps
+     </a>
+    </div>
+    <div class="flex flex-col space-y-3 mb-6 md:mb-0">
+     <p class="font-semibold text-gray-400">
+      Follow Us
+     </p>
+     <a class="hover:underline" href="#">
+      Facebook
+     </a>
+     <a class="hover:underline" href="#">
+      Instagram
+     </a>
+     <a class="hover:underline" href="#">
+      Twitter
+     </a>
+    </div>
+    <div class="border-l border-gray-600 pl-6 flex flex-col space-y-4 w-full md:w-64">
+     <p class="font-semibold text-gray-400">
+      Quick feedback
+     </p>
+     <textarea class="bg-[#031426] border border-gray-600 rounded-md p-2 text-gray-300 text-xs resize-none focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your feedback here..." rows="4"></textarea>
+     <button class="bg-blue-600 w-20 py-1 rounded text-xs font-semibold flex items-center justify-center hover:bg-blue-700" type="button">
+      <i class="fas fa-paper-plane mr-2">
+      </i>
+      Send
+     </button>
+    </div>
+   </div>
+  </footer>
 
 </body>
 </html>
