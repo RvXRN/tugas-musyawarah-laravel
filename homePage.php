@@ -109,7 +109,7 @@
      <p class="font-semibold text-gray-400">
       Quick feedback
      </p>
-     <input type="text" class="rounded py-1">
+     <input type="text" class="border border-gray-600 rounded-md p-2 w-full" placeholder="Your name">
      <textarea class=" border border-gray-600 rounded-md p-2  resize-none focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your feedback here..." rows="4"></textarea>
      <button class="bg-blue-600 w-20 py-1 rounded  font-semibold flex items-center justify-center hover:bg-blue-700" type="button">
       <i class="fas fa-paper-plane mr-2">
