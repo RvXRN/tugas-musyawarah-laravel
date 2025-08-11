@@ -29,8 +29,8 @@
       </div>
     </section>
   </main>
- <footer class="bg-[#031426]  mt-8 rounded-md px-8 py-8 text-gray-400  font-playfair">
-   <div class="flex flex-col md:flex-row md:justify-between md:space-x-12">
+  <footer class="bg-[#031426]  mt-8 rounded-md px-8 py-8 text-gray-400  font-playfair">
+   <div class="flex flex-col md:flex-row md:justify-between lg:justify-evenly md:space-x-12">
     <div class="flex flex-col space-y-3 mb-6 md:mb-0">
      <div>
       <p class="font-semibold text-gray-400">
@@ -58,12 +58,12 @@
       <p class="font-semibold text-gray-400">
        Email:
       </p>
-      <p>
+      <a href="mailto:compadmin2@gmail.co.id">
        compadmin2@gmail.co.id
-      </p>
-      <p>
+      </a>
+      <a href="mailto:info@kampungmudi.com">
        info@kampungmudi.com
-      </p>
+      </a>
      </div>
     </div>
     <div class="flex flex-col space-y-3 mb-6 md:mb-0">
@@ -109,8 +109,9 @@
      <p class="font-semibold text-gray-400">
       Quick feedback
      </p>
-     <textarea class="bg-[#031426] border border-gray-600 rounded-md p-2 text-gray-300 text-xs resize-none focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your feedback here..." rows="4"></textarea>
-     <button class="bg-blue-600 w-20 py-1 rounded text-xs font-semibold flex items-center justify-center hover:bg-blue-700" type="button">
+     <input type="text" class="rounded py-1">
+     <textarea class=" border border-gray-600 rounded-md p-2  resize-none focus:outline-none focus:ring-2 focus:ring-blue-600" placeholder="Your feedback here..." rows="4"></textarea>
+     <button class="bg-blue-600 w-20 py-1 rounded  font-semibold flex items-center justify-center hover:bg-blue-700" type="button">
       <i class="fas fa-paper-plane mr-2">
       </i>
       Send
